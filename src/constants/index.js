@@ -1,33 +1,33 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Code Crafters : EdTech Platform",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+"An interactive EdTech platform where instructors can create and manage courses while students can seamlessly enroll, learn, and track their progress.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Built a scalable MERN stack application enabling course creation, enrollment, and management.",
+      "Implemented secure JWT-based authentication and role-based access control for instructors and students.",
+      "Designed MongoDB schemas to manage users, courses, and enrollment data efficiently.",
+      "Integrated progress tracking, course categorization, and dynamic dashboards to enhance usability",
     ],
-    href: "",
+    href: "https://code-crafters-theta.vercel.app/",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/codeCrafters.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "Node.Js",
+        path: "/assets/logos/nodejs.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
       },
       {
         id: 4,
@@ -38,23 +38,23 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Syncronus Chat App",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "A real-time chat application that enables users to communicate individually or in groups, share files, and download shared content seamlessly.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Developed a full-stack MERN application supporting one-to-one and group messaging.",
+      "Integrated Socket.IO for real-time communication and instant message delivery.",
+      "Implemented file upload and download functionality with secure storage handling.",
+      "Added authentication and authorization to ensure secure user access and group management.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/syncronus.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "Node.Js",
+        path: "/assets/logos/nodejs.svg",
       },
       {
         id: 2,
@@ -63,8 +63,8 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "MongoDB",
+        path: "/assets/logos/mongodb.svg",
       },
       {
         id: 4,
@@ -75,33 +75,32 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "MyThriveBuddy : Solopreneurship Made Amazing",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "An all-in-one feel-good platform for solopreneurs that blends productivity tools with gamified experiences—helping users manage goals, grow through connections, and enjoy their entrepreneurial journey.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Built an ecosystem for solopreneurs to organize goals, services, mindset, learnings, and connections in one intuitive platform.",
+      "Designed a feel-good, visually engaging experience that makes solopreneurship joyful, connected, and sustainable.",
+      "Integrated a Buddy Matching System, allowing users to create profiles and connect with accountability partners to foster community and support.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/mtb.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "Next.Js",
+        path: "/assets/logos/nextjs.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "FireBase",
+        path: "/assets/logos/firebase.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "Typescript",
+        path: "/assets/logos/typescript.svg",
       },
       {
         id: 4,
@@ -112,28 +111,27 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "FPH : Freelancer Per Hour",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "A freelance marketplace platform where clients purchase hours and are automatically matched with freelancers based on skills, enabling efficient collaboration and transparent work tracking.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Developed a full-stack application using Next.js, Supabase, and Prisma for scalability and performance.",
+      "Designed relational database schemas in Prisma to manage users, skills, purchased hours, and work sessions.",
+      "Built an automated skill-matching system to pair clients with suitable freelancers efficiently.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/fph.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "Next.js",
+        path: "/assets/logos/nextjs.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Typescript",
+        path: "/assets/logos/typescript.svg",
       },
       {
         id: 3,
@@ -142,82 +140,8 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Firebase",
+        path: "/assets/logos/firebase.svg",
       },
     ],
   },
