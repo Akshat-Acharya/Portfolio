@@ -149,56 +149,47 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
+    name: "GitHub",
     href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    icon: "/assets/logos/github.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/Akshat-Acharya/",
     icon: "/assets/socials/linkedIn.svg",
   },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
-  },
+
 ];
 
 export const experiences = [
-  {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
-    contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
-  {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
-    contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
+{
+  title: "MERN Intern",
+  job: "VKAPS IT Solution Pvt. Ltd. | Full-Stack Development",
+  date: "June 2025 - September 2025",
+  contents: [
+    "Worked as a MERN Stack Intern at VKAPS IT Solution Pvt. Ltd., contributing to the development of SaaS-style platforms for productivity and freelance marketplaces.",
+    "Built and enhanced full-stack applications such as MyThriveBuddy (solopreneur productivity & community platform) and Freelancer Per Hour (freelance marketplace with automated skill-matching).",
+    "Implemented secure authentication and authorization using JWT and Firebase, ensuring robust data protection and role-based access control.",
+    "Designed scalable database schemas with Prisma & Supabase, optimizing queries and improving relational data management.",
+    "Improved user experience by developing responsive, performant UIs with Next.js, React Query, and TailwindCSS.",
+    "Collaborated in an agile environment, leveraging Git/GitHub for version control and best coding practices."
+  ],
+}
+,
+
+ {
+  title: "Freelance Developer",
+  job: "Self-Employed | Full-Stack Web Development",
+  date: "September 2025 - Present",
+  contents: [
+    "Developed and deployed a personal portfolio using Three.js, React, Vite, and Web APIs to showcase projects and technical expertise.",
+    "Built and maintained full-stack applications, including productivity platforms and freelance marketplaces, leveraging Next.js, MongoDB, Prisma, and Firebase.",
+    "Designed and implemented visually engaging, responsive user interfaces with TailwindCSS, React Query, and modern component-driven architecture.",
+    "Collaborated with clients and peers on project ideas, ensuring scalable solutions and practical implementations.",
+    "Actively expanding technical expertise in advanced MERN stack development, TypeScript, and machine learning integration."
+  ],
+}
+
 ];
 export const reviews = [
   {
